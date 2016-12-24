@@ -4,6 +4,10 @@
 $blue: #5CA3D1;
 $green: ;
 
+a:hover {
+	text-decoration: none;
+}
+
 #agile-sign-up-form {
 	margin: 0 auto;
 	text-align: center;
@@ -12,7 +16,9 @@ $green: ;
 #agile-sign-up-form .form-control {
 
 }
-
+.black {
+	color: black;
+}
 .blue {
 	color: #5CA3D1 !important;
 }
@@ -44,9 +50,11 @@ form input {
 }
 
 .green {
-
+	color: rgb(116,214,0);
 }
-
+figure h1:hover {
+	text-decoration: none !important;
+}
 .logo {
    max-width: 200px;
    margin: 0 auto;

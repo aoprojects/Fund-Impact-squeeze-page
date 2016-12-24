@@ -64,7 +64,7 @@ body {
 }
 h2{
 	font-size:34px;
-	color:#222222;
+	/*color:#222222;*/
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
@@ -98,7 +98,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../gplaypattern.png) left top repeat;
 	padding:180px 0 300px 0;
 }
 .logo{
@@ -111,7 +111,6 @@ p{
 	font-weight:400;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:#fff;
 }
 
 .we-create{
@@ -125,7 +124,7 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: #bcbcbc;
+	/*color: #bcbcbc;*/
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
@@ -140,7 +139,7 @@ p{
 }
 
 .start-button li a{
-color: #fff;
+	/*color: black;*/
 }
 
 
@@ -193,7 +192,7 @@ color: #fff;
 }
 .main-nav li a{
 	display:inline-block;
-	color:#222222;
+	/*color:#222222;*/
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -206,7 +205,7 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	/*color: #7cc576;*/
 }
 
 .small-logo{ 
@@ -745,7 +744,7 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../gplaypattern.png) left top repeat;
 	/*padding:35px 0 35px;*/
 }
 .footer-logo{
