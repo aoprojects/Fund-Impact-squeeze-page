@@ -60,9 +60,11 @@ form {
 form input {
 	text-align: center;
 }
-
+.gray {
+	color: gray;
+}
 .green {
-	color: rgb(116,214,0);
+	color: rgb(25,156,55);
 }
 figure h1:hover {
 	text-decoration: none !important;
