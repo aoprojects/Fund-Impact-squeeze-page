@@ -26,7 +26,7 @@ a:hover {
 	color: #ACD0E7 !important;
 }
 body {
-	background: white;
+	background-color: #303030;
 }
 .centered {
 	margin: 0 auto;
@@ -67,6 +67,9 @@ form input {
 }
 figure h1:hover {
 	text-decoration: none !important;
+}
+header {
+	background: white;
 }
 .logo {
    max-width: 200px;
