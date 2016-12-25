@@ -1,8 +1,7 @@
 /* below is custom css for LNQ squeeze page, not from the bootstrap template */
 
 /*sass varibls should go here*/
-$blue: #5CA3D1;
-$green: ;
+
 
 a:hover {
 	text-decoration: none;
@@ -27,7 +26,7 @@ a:hover {
 	color: #ACD0E7 !important;
 }
 body {
-	background: #E0E0E0;
+	background: white;
 }
 .centered {
 	margin: 0 auto;
@@ -35,8 +34,9 @@ body {
 
 #coming-soon {
 	position: relative;
-	top: 15px;
-	color: white;
+	top: 8px;
+	color: #eee;
+
 }
 footer {
 	background-color: #303030;
@@ -74,6 +74,9 @@ figure h1:hover {
    margin: 0 auto;
    position: relative;
    bottom: -22px;
+}
+.tagline {
+	color: rgba(25,156,55,0.5);
 }
 #team h2 {
 	color: #5CA3D1;
