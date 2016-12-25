@@ -1,3 +1,5 @@
+<!-- the below is just a copy of the source code given from agile to us. THey won't do it without styling, so I am adding needed details in separately, since styling is done from a different agile form -->
+
 <link href="https://s3.amazonaws.com/agilecrm/forms/v1/agile-form-min.css" rel="stylesheet">
 <form class="form-view agile-form-transparent  theme1" id="agile-form" action="https://fundimpact.agilecrm.com/formsubmit"  style= "max-width:450px;" method="GET">
 <fieldset>
@@ -11,8 +13,7 @@
 <input type="hidden" id="_agile_redirect_url" name="_agile_redirect_url" value="http://fundimpact.io/thanks-for-signing-up.html">
 <input type="hidden" id="_agile_confirmation_msg" name="_agile_confirmation_msg" value="Great! Thanks for filling out the form.">
 <input type="hidden" id="_agile_form_id_tags" name="tags" value="beta_elist elist">
-
-     <input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5730082031140864">
+<input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5730082031140864">
 </div>
 <!-- Text input-->
 <div class="agile-group required-control">
