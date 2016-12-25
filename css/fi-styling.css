@@ -26,7 +26,9 @@ a:hover {
 .blue-lighter {
 	color: #ACD0E7 !important;
 }
-
+body {
+	background: #E0E0E0;
+}
 .centered {
 	margin: 0 auto;
 }
@@ -34,8 +36,18 @@ a:hover {
 #coming-soon {
 	position: relative;
 	top: 15px;
+	color: white;
 }
-
+footer {
+	background-color: #303030;
+	padding: 15px;
+}
+footer a,h6 {
+	color: white;
+}
+footer a:hover {
+	text-decoration: none;
+}
 .footer-logo {
 	width: 100px;
 }

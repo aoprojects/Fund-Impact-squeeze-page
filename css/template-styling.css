@@ -98,7 +98,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../gplaypattern.png) left top repeat;
+	/*background:url(../gplaypattern.png) left top repeat;*/
 	padding:180px 0 300px 0;
 }
 .logo{
@@ -744,7 +744,7 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:url(../gplaypattern.png) left top repeat;
+	/*background:url(../gplaypattern.png) left top repeat;*/
 	/*padding:35px 0 35px;*/
 }
 .footer-logo{
