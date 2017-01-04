@@ -26,7 +26,7 @@ a:hover {
 	color: #ACD0E7 !important;
 }
 body {
-	background-color: #303030;
+	background: url('img/low_contrast_linen.png') repeat;
 }
 .centered {
 	margin: 0 auto;
@@ -35,8 +35,6 @@ body {
 #coming-soon {
 	position: relative;
 	top: 8px;
-	color: #eee;
-
 }
 footer {
 	background-color: #303030;
@@ -68,8 +66,12 @@ form input {
 figure h1:hover {
 	text-decoration: none !important;
 }
+h1 {
+	color: #eee;
+}
 header {
-	background: white;
+	background: url('../img/low_contrast_linen.png') repeat;
+	height: 100vh;
 }
 .logo {
    max-width: 200px;
@@ -78,7 +80,7 @@ header {
    bottom: -22px;
 }
 .tagline {
-	color: rgba(25,156,55,0.5);
+	color: white;
 }
 #team h2 {
 	color: #5CA3D1;
