@@ -15,23 +15,13 @@ a:hover {
 #agile-sign-up-form .form-control {
 
 }
-.black {
-	color: black;
-}
-.blue {
-	color: #5CA3D1 !important;
-}
 
-.blue-lighter {
-	color: #ACD0E7 !important;
-}
 body {
 	background: url('img/low_contrast_linen.png') repeat;
 }
 .centered {
 	margin: 0 auto;
 }
-
 #coming-soon {
 	position: relative;
 	top: 8px;
@@ -57,17 +47,13 @@ form {
 form input {
 	text-align: center;
 }
-.gray {
-	color: gray;
-}
-.green {
-	color: rgb(25,156,55);
-}
+
 figure h1:hover {
 	text-decoration: none !important;
 }
 h1 {
 	color: #eee;
+	padding-top: 20vh;
 }
 header {
 	background: url('../img/low_contrast_linen.png') repeat;
@@ -87,7 +73,6 @@ header {
 }
 .team-leader-box {		
 	padding-top: 35px;
-	/*box-shadow: 1px 1px 5px rgba(92,163,209,0.3); /* transparent blue */*/
 }
 .no-border-before {
 	box-shadow: none !important;
