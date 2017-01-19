@@ -100,7 +100,6 @@ header {
 		/*padding-top: 15px;*/
 		padding-bottom: 15px;
 	}
-
 	.team-leader-box p {
 		font-size: 15px;
 		padding-top: 25px;
@@ -109,6 +108,10 @@ header {
 }/* for xs devices */
 
 @media only screen and (min-width: 768px) {
+	.container {
+		position: relative;
+		top: -150px;
+	}
 	/*below begins temporary styling, while we don't have headshots. TODO */
 	.team-leader-box p {
 		font-size: 16px;
@@ -138,7 +141,7 @@ header {
 
 }/* for md and lg devices only */
 
-
+/* INPUT STYLES */
 input:focus, input:active, input:hover {
 	box-shadow: none !important;
 	border-top: none !important;
