@@ -139,5 +139,12 @@ header {
 }/* for md and lg devices only */
 
 
-
+input:focus, input:active, input:hover {
+	box-shadow: none !important;
+	border-top: none !important;
+	color: white;
+}
+input:focus::-webkit-input-placeholder {
+	color: white;
+}
 
