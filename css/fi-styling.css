@@ -95,15 +95,34 @@ header {
 /* begin media query specific styling below */
 
 @media only screen and (max-width: 767px) {
-	.team-leader-box {
-		width: 100hw;
-		/*padding-top: 15px;*/
-		padding-bottom: 15px;
+	/*make the page look wider on mobile */
+
+	header {
+		margin: 0;
+		padding: 15vh 10px !important;
+		transform: scale(1.1);
+		overflow: visible;
 	}
-	.team-leader-box p {
-		font-size: 15px;
-		padding-top: 25px;
+	h1#coming-soon-product {
+		/*transform: scale(1.3) !important;*/
+		font-size: 36px;
+		padding-top: 10vh;
+		/*transition: ease-in 0.2s;*/
+		/*text-align: left;*/
 	}
+	.theme-color2 {
+		font-size: 14px;
+	}
+	.vis-xs-only {
+		display: inline;
+	}
+	footer {
+		padding: 100px;
+	}
+	.container {
+		/*width: 100vw;*/
+	}
+
 
 }/* for xs devices */
 
