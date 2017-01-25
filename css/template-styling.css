@@ -101,6 +101,16 @@ p{
 	/*background:url(../gplaypattern.png) left top repeat;*/
 	padding:180px 0 300px 0;
 }
+@media only screen and (max-width: 767px) {
+	header {
+		padding: 30px 10px !important;
+		margin: 0;
+	}
+	.container {
+
+	}
+}/*small screen sizes*/
+
 .logo{
 	/*width:130px;*/
 	/*margin:0 auto 35px;*/
